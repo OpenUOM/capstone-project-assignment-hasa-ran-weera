@@ -1,0 +1,6 @@
+-- database: c:\Users\hasanthi\Documents\project1\capstone-project-assignment-hasa-ran-weera\db.sqlite
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+SELECT * FROM teacher
+ORDER BY `id` DESC;
