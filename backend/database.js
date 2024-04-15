@@ -53,7 +53,7 @@ const readTeacherInfo = async (id) => {
     const sql = `SELECT * FROM teacher WHERE id = ?`
     return new Promise((resolve, reject) => {
         knex_db
-            .raw(sql)
+            .raw(sql, [id])
             .then((data) => {
                 resolve(data);
             })
